@@ -42,6 +42,3 @@ This project is a single-page web application for a Driver Monitoring System tha
 
 Mock data is provided for demonstration purposes. You can replace it with data from your backend service.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
