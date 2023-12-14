@@ -107,21 +107,30 @@ button:hover {
   color: #777;
 }
 
+.alert-box-right {
+  display: flex;
+  align-items: center;
+}
+
+.alert-box-right .bell-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url('bell.png'); /* Replace with your bell icon image path or URL */
+  background-size: cover;
+  margin-right: 5px;
+}
+
 .alert-box-right button {
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 8px; /* Reduced padding */
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 0.8em; /* Reduced font size */
 }
 
 .alert-box-right button:hover {
   background-color: #3498db;
   color: #fff;
-}
-
-.bell-icon {
-  width: 20px;
-  height: 20px;
-  background-image: url('path-to-your-bell-icon.png'); /* Replace with your bell icon image path or URL */
-  background-size: cover;
 }
